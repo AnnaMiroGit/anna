@@ -1,4 +1,4 @@
 # anna
 New file.
-open
+open!
 learn to creep before you leap
