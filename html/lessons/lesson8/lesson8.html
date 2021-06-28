@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Формы</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Многострочные текстовые поля</legend>
+            <p>
+                <input type="text" name="field1" placeholder="Введите текст">
+            </p>
+
+            <p>
+                <textarea type="text" name="field2" cols="30" rows="10"></textarea>
+            </p>
+    </fieldset>
+
+    <fieldset>
+        <legend>Выпадающие списки</legend>
+        <p>
+            <strong>Ваше любимое домашнее животное</strong>
+            <select name="pets" placeholder="Выберите пункт">
+                <option value="" disabled selected>Выберите пункт</option>
+                <option value="s1">Собака</option>
+                <option value="s2">Кот</option>
+                <option value="s3">Черепаха</option>
+                <option value="s4">Хомяк</option>
+
+            </select>
+        </p>
+       
+        <p>
+            <strong>Есть ли у Вас дома питомцы?</strong> 
+            <select name="have" size="3">
+                <option value="s1">Да</option>
+                <option value="s2">Нет</option>
+                <option value="s3">Нет, но очень хочу</option>  
+            </select>
+
+             
+        </p> 
+        
+    </fieldset>
+    
+</body>
+</html>
