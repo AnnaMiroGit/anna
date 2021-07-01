@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Работа с формами</title>
+</head>
+<body>
+    <hr>
+    <div>
+        <form name="user">
+            <fieldset>
+                <legend>
+                    Регистрационная форма пользователя
+                </legend>
+                <label>
+                    Имя: 
+                    <input type="text" name="username">
+                </label>
+                
+                <p>
+                    <label>
+                        Укажите возраст: 
+                        <select name="age" id="age">
+                            <option disabled selected>Выберите возраст</option>
+                            <option value="10-15">10-15 лет</option>
+                            <option value="15-20">15-20 лет</option>
+                            <option value="20-30">20-30 лет</option>
+                            <option value="30-40">30-40 лет</option>
+                            <option value="40+">Старше 40 лет</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    Укажите пол:
+
+                    <label>
+                        мужской
+                        <input type="radio" name="sex" value="male">
+                    </label>
+
+                    <label>
+                        женский
+                        <input type="radio" name="sex" value="female">
+                    </label>
+                </p>
+                <p>
+                    <label>
+                        Страна проживания: 
+                        <select name="age" id="age">
+                            <option disabled selected>Выберите страну</option>
+                            <option value="rb">Беларусь</option>
+                            <option value="rf">Российская Федерация</option>
+                            <option value="else">Другое государство</option>
+                        </select>
+                    </label>
+                </p>
+
+                <p>
+                    Владение языками:
+                    <label>
+                        русский
+                        <input type="checkbox" name="lang" value="ru">
+                    </label>
+
+                    <label>
+                        белорусский
+                        <input type="checkbox" name="lang" value="by">
+                    </label>
+
+                    <label>
+                        английский
+                        <input type="checkbox" name="lang" value="eng">
+                    </label>
+                </p>
+                    Фото профиля:
+                    <input type="file" accept=".jpg,.png" value="Обзор..." multiple>
+                <p>
+
+                
+                <p>
+                    Введите логин:
+                    <input type="text" name="login" required>
+                </p>
+
+                <p>
+                    Введите пароль:
+                    <input type="password" name="password" required>
+                </p>
+
+                <p>
+                    Повторите пароль:
+                    <input type="password" name="password" required>
+                </p>
+
+                </p>
+            </fieldset>
+
+            <input type="reset" value="Сброс">
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+    
+</body>
+</html>
