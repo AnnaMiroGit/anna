@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>форма</title>
+</head>
+<body>
+
+    <!-- 1 форма -->
+    <p>
+       <b>
+        Запись на курсы:
+        </b>
+    </p> 
+    <hr>
+    <p>
+        Имя: 
+    </p>
+    <p>
+        <input type="text" name="login" required>
+    </p>
+   
+    <p>
+        Язык программирования:
+    </p>
+        <p>
+            <label>
+                <input type="radio" name="lang" value="c++">
+                C++
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <input type="radio" name="lang" value="php">
+                PHP
+            </label>
+        </p>
+
+        <p>
+            <label>
+                <input type="radio" name="lang" value="python">
+                Python
+            </label>
+        </p>
+    
+        <p>
+            Дополнительная информация:
+        </p>
+        <p>
+            <textarea name="info" id="" cols="30" rows="5"></textarea>
+        </p>
+
+        <p>
+            Секретное слово:
+        </p>
+        <p>  
+            <input type="password" name="word" required>
+        </p> 
+
+        <p>
+            <input type="submit">
+            <input type="reset" value="Очистить">
+        </p>
+
+
+    <!-- 2 форма -->
+
+    <fieldset>
+        <legend>
+            <big>
+                Параметры автомобиля
+            </big>
+        </legend>
+
+        <p>
+            Марка автомибиля:
+            <input type="text" name="mark" required>
+        </p>
+
+        <p>
+            Объем двигателя, см<sup>3</sup>
+            <input type="number" name="volume" required>
+        </p>
+
+        <label>
+            Область: 
+                <select name="area" id="area">
+                    <option disabled selected>Выберите область</option>
+                    <option value="br">Брестская</option>
+                    <option value="vt">Витебская</option>
+                    <option value="gom">Гомельская</option>
+                    <option value="gr">Гродненская</option>
+                    <option value="min">Минская</option>
+                    <option value="mog">Могилевская</option>
+                </select>
+        </label>
+
+        <p>
+            Тип КПП
+        </p>
+        
+        <div>
+            <label>
+                <input type="radio" name="type" value="automatics">
+                Автомат
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <input type="radio" name="type" value="mechanics">
+                Механика
+            </label>
+        </div>
+
+        <p>
+            Двигатель
+        </p>
+            <div>
+                <label>
+                    <input type="checkbox" name="engine" value="electro">
+                    Электро
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    <input type="checkbox" name="engine" value="diesel">
+                    Дизель
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    <input type="checkbox" name="engine" value="gasoline">
+                    Бензин
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    <input type="checkbox" name="engine" value="propane-butane">
+                    Пропан-бутан
+                </label>
+            </div>
+            
+            <div>
+                <label>
+                    <input type="checkbox" name="engine" value="methane">
+                    Метан
+                </label>
+            </div>
+
+            <p>
+                Описание
+            </p>
+            <p>
+                <textarea name="info" id="" cols="40" rows="10"></textarea>
+            </p>
+
+            <p>
+                <input type="submit">
+                <input type="reset" value="Очистить">
+            </p>
+
+    </fieldset>
+    
+</body>
+</html>
