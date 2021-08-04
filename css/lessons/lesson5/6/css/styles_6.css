@@ -1,0 +1,33 @@
+div {
+    width: 400px;
+    padding: 7px;
+}
+
+p:first-child {
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 0.4;
+}
+
+p:nth-of-type(2) {
+    color: orange;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 0.4;
+}
+
+.i {
+    font-style: italic;
+    text-decoration: underline solid;
+}
+
+.b {
+    font-weight: bold;
+    text-decoration: underline dotted orange;
+}
+
+p:nth-of-type(3) {
+    font-size: 20px;
+}
+
