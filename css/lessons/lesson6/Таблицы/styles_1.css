@@ -1,0 +1,18 @@
+table {border: 1px solid black;} 
+th {border: 1px solid black;}
+td {border: 1px solid black;}
+
+.table_1 {
+caption-side: top;
+border-collapse: collapse;
+empty-cells: hide;
+border-spacing: 15px 30px;
+margin-bottom: 10px;
+}
+
+.table_2 {
+caption-side: bottom;
+border-collapse: separate;
+empty-cells: hide;
+border-spacing: 8px 8px;
+}

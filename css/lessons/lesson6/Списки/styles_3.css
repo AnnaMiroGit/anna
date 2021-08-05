@@ -1,0 +1,9 @@
+body > ul > li {
+    color: red;
+    list-style-type: circle;
+}
+
+ul > li > ul {
+    color: blue;
+    list-style-type: square;
+}
