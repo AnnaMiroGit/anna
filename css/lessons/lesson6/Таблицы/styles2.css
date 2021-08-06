@@ -1,14 +1,46 @@
 table {
     border: 1px solid black;
     border-collapse: collapse;
-} 
+    margin: 10px;
+}
+
 th {
     border: 1px solid black;
 }
+
 td {
     border: 1px solid black;
 }
 
-/* thead {
-    
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #3a3a91;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px #d0d1ff;
+}
+
+thead {
+    background-color: #3a3a91;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+th {
+    background-color: #7e7ea4;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+/* tr > td::after {
+    border-color: rgba(140, 140, 255, 0.4);
+    content: "";
+    position: absolute;
+    height: 2000vh;
+    left: 0;
+    top: -1000vh;
+    width: 100%;
+    z-index: -1;
 } */
