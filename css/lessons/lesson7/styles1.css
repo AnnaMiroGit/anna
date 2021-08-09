@@ -1,0 +1,12 @@
+a {
+    bottom: 10px;
+    border-radius: 10px;
+    display: block; 
+    margin: 20px;  
+    padding: 10px;
+    background: linear-gradient(to top, #4fbd24, #41ec03);
+    color: white;
+    font-weight: bold;
+    outline: 4px solid white
+    outline-offset: 2px; 
+} 
