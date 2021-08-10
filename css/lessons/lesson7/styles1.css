@@ -1,12 +1,21 @@
 a {
-    bottom: 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     display: block; 
     margin: 20px;  
     padding: 10px;
     background: linear-gradient(to top, #4fbd24, #41ec03);
     color: white;
     font-weight: bold;
-    outline: 4px solid white
-    outline-offset: 2px; 
-} 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    outline: -4px solid white;   
+}
+
+a:hover {
+    background: linear-gradient(to top, #f9a80c, #fbc157);
+}
+
+a:active {
+    background: linear-gradient(to top, #f9cd66, #fae069);
+}
