@@ -9,7 +9,8 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     display: inline-block;
-    outline: -4px solid white;   
+    outline: 1px solid white;   
+    outline-offset: -4px;
 }
 
 a:hover {
