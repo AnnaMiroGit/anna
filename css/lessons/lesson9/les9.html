@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">    
+    <title>Задачи по CSS</title>
+    <link rel="stylesheet" href="styles.css">
+<style>
+    .div_1 {
+        position: fixed;
+        top: 30px;
+        left: 35px;
+        width: 300px;
+        height: 400px;
+        padding: 15px;
+        border-width: 2px;
+        border: dashed rgb(54, 241, 54);
+    }
+
+    .div_2 {
+        width: 70px;
+        height: 50px;
+        background: radial-gradient(35px 35px at 10px 10px, #00ffff, #ffffff);
+        padding: 5px;
+        border-width: 2px;
+        border: solid orange;
+        float: left;
+    }
+
+    .div_3 {
+        width: 70px;
+        height: 50px;
+        background: linear-gradient(45deg, #0000ff, #ffffff);
+        padding: 5px;
+        border-width: 2px;
+        border: dashed red;
+        float: right;
+    }
+</style>
+</head>
+<body>
+    <div class="div_1">
+        Для основного div'а установлено фиксированное позиционирование, смещение сверху 30px, слева 35px, ширина div'а 300px, высота div'а 400px, внутренние отступы 15px. <br><br>
+         
+        <div class="div_2">div_2</div> Для второго div'а ширина равна 70px, 
+        высота 50px, градиент (35px 35px at 10px 10px, #00ffff, #ffffff),
+        внутренние отступы &ndash; 5px, ширина границы &ndash; 2px. Плавает 
+        слева.<br><br>
+         
+        <div class="div_3">div_3</div> Для третьего div'а ширина равна 70px, 
+        высота 50px, градиент (45deg, #0000ff, #ffffff), внутренние отступы 5px, ширина границы &ndash; 2px. Плавает справа. При наведении курсора меняет свою прозрачность на 0.3.
+    </div>
+</body>
+</html>
