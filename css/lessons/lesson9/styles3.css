@@ -1,0 +1,18 @@
+body {
+    background-color: #75947577;
+    margin-top: 20px;
+}
+
+a {
+    background-color: green;
+    box-shadow: 12px 12px 2px rgb(122, 10, 10, 0.9);
+    border-radius: 5px;
+    padding: 24px 48px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+    word-spacing: 5px;
+    margin: 40px;
+    margin-top: 20px;
+    position: absolute;
+}
