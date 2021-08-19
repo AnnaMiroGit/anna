@@ -9,7 +9,7 @@ a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
     display: inline-block;
-    outline: 1px solid white;   
+    outline: 0.5px solid white;   
     outline-offset: -4px;
 }
 

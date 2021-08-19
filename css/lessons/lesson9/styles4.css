@@ -1,0 +1,42 @@
+.div_1 {
+    background-color: rgba(148, 245, 145, 0.295);
+    color: rgb(15, 15, 117);
+    font-weight: 700;
+    padding: 10px;;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.div_2 {
+    color: yellowgreen;
+    font-weight: normal;
+}
+
+img {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    padding: 2px;
+    margin: 2px;
+    float: left;
+    padding-right: 10px; 
+}
+
+.close {
+    float: right;
+    margin-top: -30px;
+    margin-right: 10px;
+    cursor:pointer;
+    color: #fff;
+    border: 1px solid white;
+    border-radius: 30px;
+    background: yellowgreen;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    line-height: 0px;
+    padding: 9px 4px;       
+}
+
+.close:before {
+    content: "×";
+}
