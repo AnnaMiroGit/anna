@@ -1,0 +1,50 @@
+ .grid-container {
+    display: grid;
+    grid-template-areas: "post-1 post-1 post-2"  
+                         "post-3 post-4 post-4"  
+                         "post-3 post-5 post-6"; 
+    grid-template-rows: repeat(3, 200px);
+    grid-template-columns: repeat(3, 1fr);
+    
+}
+
+  .post-1 {
+    grid-area: post-1;
+    background-color: rgb(69, 241, 169);
+}
+
+  .post-2 {           
+    grid-area: post-2;
+    background-color: rgb(255, 243, 131);
+}
+
+  .post-3 {
+    grid-area: post-3;
+    background-color: rgb(131, 255, 245);
+  }
+
+  .post-4 {           
+    grid-area: post-4;
+    background-color: rgb(214, 140, 243);
+  }
+
+  .post-5 {
+    grid-area: post-5;
+    background-color: #83ffcb;
+  }
+
+  .post-6 {           
+    grid-area: post-6;
+    background-color: rgb(255, 143, 78);
+  }
+
+  .post-1, .post-2, .post-3, .post-4, .post-5, .post-6 {
+    color: #ffffff;
+    margin: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  

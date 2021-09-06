@@ -1,0 +1,115 @@
+/* * {
+    box-sizing: border-box;
+} */
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    height: 100vh;
+}
+
+.header {
+    background-color: rgb(9,92,92);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 120px;
+    padding: 20px;
+}
+
+#logo {
+    background-color: rgb(255,165,0);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    width: 120px;
+    height: 100px;
+    padding: 5px;
+}
+.top-menu {
+    background-color: rgb(1,13,63);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 50px;
+    color: white;
+}
+
+.grid-container1 {
+    display: grid;
+    grid-template-areas: "article-1 article-2";  
+    grid-template-rows: 100px;
+    grid-template-columns: repeat(2, 1fr);   
+}
+
+.grid-container2 {
+    display: grid;
+    grid-template-areas: "left-panel main right_panel";
+    grid-template-rows: 50vh; 
+    grid-template-columns: 200px 1fr 200px;   
+}
+
+.grid-container3 {
+    display: grid;
+    grid-template-areas: "article-3 article-4 article-5";  
+    grid-template-rows: 100px;
+    grid-template-columns: repeat(3, 1fr);   
+}
+
+.article-1 { 
+    grid-area: article-1;
+} 
+
+.article-2 { 
+    grid-area: article-2;
+} 
+
+.article-3 { 
+    grid-area: article-3;
+} 
+
+.article-4 { 
+    grid-area: article-4;
+} 
+
+.article-5 { 
+    grid-area: article-5;
+} 
+
+.article-1, .article-2, .article-3, .article-4, .article-5 {
+    background-color: #40dbe0;
+    text-align: center;
+    margin: 5px;
+}
+
+.left-panel { 
+    grid-area: left-panel;
+    background-color: #7a19bb;
+    color: #ffffff;
+    text-align: center;
+    margin: 5px;
+} 
+
+.main { 
+    grid-area: main;
+    background-color: #fff;
+    text-align: center;
+} 
+
+.right_panel { 
+    grid-area: right_panel;
+    background-color: #7a19bb;
+    color: #ffffff;
+    text-align: center;
+    margin: 5px;
+} 
+
+footer {
+    background-color: rgb(2,52,71);
+    color: white;
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+}
