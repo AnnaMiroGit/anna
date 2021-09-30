@@ -22,10 +22,11 @@ body {
 .wrapper {
     max-width: 1110px;
     margin: 0 auto;
+    position: relative;
 }
 
 .header {
-    position: fixed;
+    /* position: fixed; */
     top: 0;
     left: 0;
     width: 100%;
@@ -36,7 +37,7 @@ body {
     flex-wrap: wrap;
     align-items: flex-end;
     justify-content: space-between;
-    padding-top: 51px;
+    padding-top: 50px;
 }
 
 .header__list {
@@ -58,7 +59,7 @@ body {
     font-size: 18px;
     text-decoration: none;
     color: #ffffff;
-    line-height: 24.51px;
+    line-height: 24px;
     text-transform: uppercase;
 }
 /* .header__phone {
@@ -94,11 +95,11 @@ body {
     opacity: .75;
 }
 
-.intro {
+.fon {
     height: 1045px;
     background: url(../image/Rectangle\ 3.jpg) no-repeat center;
     background-size: cover;
-    padding-top: 384px;
+    /* padding-top: 384px; */
 }
 
 .intro__title {
@@ -118,14 +119,14 @@ body {
     font-weight: normal;
     font-size: 14px;
     line-height: 150%;
-    margin-bottom: 49px;
+    margin-bottom: 50px;
 }
 
 .button__afisha {
     height: 50px;
     border: 0;
-    padding-left: 47px;
-    padding-right: 47px;
+    padding-left: 48px;
+    padding-right: 48px;
     background-color: #D1A954;
     color: #ffffff;
     text-transform: uppercase;
@@ -142,27 +143,36 @@ body {
     background: rgb(241, 214, 156);
 }
 
-/* .intro__slider {
-    float: right;
-}
-
-.slider-container IMG {
-    position: relative;
-}
-
 .img1 {
+    position: relative;
     width: 350px;
     height: 490px;
-    z-index: 1;
-    left: 15px; 
-    top: -413px;
+    z-index: 2;
+    left: 95px; 
+    top: 0;
 }
 
 .img2 {
+    position: relative;
     width: 350px;
     height: 490px;
-    z-index: 5;
-    left: 27px; 
-    top: 27px;
-} */
+    z-index: 1;
+    left: 75px; 
+    top: 20px;
+    
+} 
+
+.left__block {
+    width: 50%;
+    left: 0;
+    top: 0;
+    position: absolute;
+}
+
+.right__block {
+    width: 50%;
+    right: 0;
+    top: 0;
+    position: absolute;  
+}
 
