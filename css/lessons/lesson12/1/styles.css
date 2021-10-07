@@ -1,0 +1,16 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.image {
+    display: block;
+    /* margin: auto; */
+}
+
+.image:hover {
+    margin-top: 200px;
+    transform: rotate(60deg);
+    transition-property: all;
+    transition-duration: 3s;
+}

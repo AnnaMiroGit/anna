@@ -1,0 +1,18 @@
+body {
+    background-color: #e5e5e5;
+}
+
+.lending {
+    max-width: 1440px;
+    width: 100%;
+    background-color: #100e14;
+    color: #ffffff;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: #ffffff;
+    color: #000000;
+}
+
