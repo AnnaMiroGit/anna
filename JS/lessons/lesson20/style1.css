@@ -1,0 +1,16 @@
+.form-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 580px;
+    row-gap: 30px;
+    margin: 0 auto;
+}
+
+button {
+    background-color: rgb(7, 7, 149);
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 3em;
+    width: 25em;
+}
